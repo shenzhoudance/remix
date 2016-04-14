@@ -11,7 +11,7 @@ module.exports = React.createClass({
 
 	submit: function()
 	{
-		this.props.onNewTxRequested(this.state.blockNumber, parseInt(this.state.txNumber), "TmrjdiILLn0=");
+		this.props.onNewTxRequested(this.state.blockNumber, parseInt(this.state.txNumber), "eQYLVS0z+TM=");
 	},
 	
 	updateBlockN: function(ev) {
