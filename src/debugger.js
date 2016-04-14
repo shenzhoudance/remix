@@ -10,7 +10,7 @@ module.exports = React.createClass({
 
   render: function() {
     return (<div>
-    <p><h1>Debugger</h1></p>
+    <h1><p>Debugger</p></h1>
 		<TxBrowser onNewTxRequested={this.retrieveVmTrace} />
 		<VmTraceBrowser vmTrace={this.state.vmTrace} />
 	</div>
